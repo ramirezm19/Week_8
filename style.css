@@ -33,6 +33,7 @@ h3 {
 .navbar {
     background-color: #bab2b5;
     padding: 5px;
+    font-size: 20px;
 }
 
 .navbar ul{
@@ -78,6 +79,7 @@ h3 {
     font-size: 18px;
 }
 
+/******AddtotheStory CSS Styling******/
 /*styling for favorite squirrel form*/
 .fave-squirrel {
     display: flex;
@@ -87,6 +89,22 @@ h3 {
 .fave-squirrel p {
     font-size: 18px;
     padding: 5px;
+}
+
+.fave-squirrel input[type="button"] {
+    background-color: #ac3b61;
+    font-family: 'Times New Roman', Times, serif;
+    color:#eee2dc;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 2em;
+    border-width: 1px;
+    border-color: darkgrey;
+}
+
+.fave-squirrel input[type="button"]:hover {
+    background-color: #edc7b7;
+    color: #000;
 }
 
 /*styling for Nutty Newsletter*/
@@ -107,3 +125,18 @@ h3 {
     color: #ac3b61;
 }
 
+.form-group input[type="submit"] {
+    background-color: #ac3b61;
+    font-family: 'Times New Roman', Times, serif;
+    color:#eee2dc;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 2em;
+    border-width: 1px;
+    border-color: darkgrey;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #edc7b7;
+    color:#000;
+}

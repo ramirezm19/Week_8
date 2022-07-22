@@ -1,6 +1,10 @@
+/*styles for all three pages*/
+
 body {
     background-color: #eee2dc;
     color: #123c69;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
 }
 
 a {
@@ -26,24 +30,38 @@ h3 {
     text-align: center;
 }
 
+.navbar {
+    background-color: #bab2b5;
+    padding: 5px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+/*Created the container to have a uniform centering to the page and to make it dynamic*/
 .container {
     width: 80%;
     margin: auto;
+    padding: 10px;
 }
-
+/*Created this box for more a text-heavy div*/
 .box-1 {
     color: #123c69;
     font-size: 18px;
-
+    padding: 5x;
 }
-
+/*This box is just to center text onto the page*/
 .box-2 {
     color: #123c69;
     font-size: 18px;
     text-align: center;
 }
 
-.window-image {
+/*styling for the single images*/
+.single-image {
     border: 2px black solid;
     padding: 25px 45px;
     margin: 40px;
@@ -53,13 +71,25 @@ h3 {
     justify-content: center; 
 
 }
-
+/*Utilizing flexbox to display the li horizontally*/
 .container ul {
     list-style: none;
-    display: inline;
+    display: flex;
     font-size: 18px;
 }
 
+/*styling for favorite squirrel form*/
+.fave-squirrel {
+    display: flex;
+    justify-content: center;
+}
+
+.fave-squirrel p {
+    font-size: 18px;
+    padding: 5px;
+}
+
+/*styling for Nutty Newsletter*/
 .news-signup {
     padding: 20px;
     text-align: center;
@@ -77,6 +107,3 @@ h3 {
     color: #ac3b61;
 }
 
-.fave-squirrel {
-    justify-content: center;
-}

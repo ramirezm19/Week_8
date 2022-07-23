@@ -62,22 +62,60 @@ h3 {
 }
 
 /*styling for the single images*/
-.single-image {
-    border: 2px black solid;
-    padding: 25px 45px;
-    margin: 40px;
-    width: 150px;
-    height: 300px;
+
+#single-image {
     display: flex;
     justify-content: center; 
-
 }
+
+/*styling for the multiple squirrel images in Beginning page*/
+#squirrel-images {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
 /*Utilizing flexbox to display the li horizontally*/
 .container ul {
     list-style: none;
     display: flex;
     font-size: 18px;
 }
+
+/******Story CSS Styling******/
+
+/*styling for the table*/
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    color: rgba(100, 13, 13, 0.63);
+    
+}
+
+.table th {
+    font-size: 18px;
+    color: black;
+}
+
+.table tr:nth-child(even) {
+    background-color: #bab2b5;
+}
+
+.table th, td {
+    padding: 6px;
+    border-bottom: 1px dotted black;
+}
+
+.table tr:hover {
+    background-color: #f18181;
+    color: darkblue;
+}
+
 
 /******AddtotheStory CSS Styling******/
 /*styling for favorite squirrel form*/
